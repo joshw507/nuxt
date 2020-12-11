@@ -1,0 +1,14 @@
+{
+    "baseUrl": "http://localhost:3000",
+    "chromeWebSecurity": false,
+    "blockHosts": ["cdn.cookielaw.org"],
+    "blacklist": ["cdn.cookielaw.org"],
+    "viewportWidth": 1360,
+    "viewportHeight": 840,
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "configFile": "reporter-config.json"
+    }
+  }
+  
+  
